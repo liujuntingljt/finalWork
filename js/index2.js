@@ -97,6 +97,7 @@ var end=document.getElementById('end');
 button2.onclick=function(){
 	gray.style.display="block";
 	add.style.display="block";
+	add.style.left=(document.body.offsetWidth/2-add.offsetWidth/2)+'px';
 }
 close.onclick=function(){
 	gray.style.display="none";
